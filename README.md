@@ -20,5 +20,18 @@ JAX is a deep learning framework that enables training of CPU/GPU/TPU.
 * Energy Based Models
 * NeuralSDEs (for Continous-Time Generative Models for Time Series Generation)
 
+## Quick Start
 
+### Testing and Inference Mode:
+Perform testing using pre-trained GAN Models. The pretrained model weights in `pre_trained/` will be downloaded and generate pictures. 
 
+### Training your own GAN:
+You can train your own GAN from scratch with `training/`. To change the parameters of the Model you can tweak the parameters in `config.json` script and run the model.
+
+## Benchamarking on Datasets:
+* MNIST
+* CIFAR10
+* CelebA (64x64)
+* CelebA (128x128)
+
+## Results of Pre-Trained Models
