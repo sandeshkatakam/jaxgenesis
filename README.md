@@ -3,7 +3,7 @@ Implementations of different generative model architectures in JAX framework usi
 
 ## JAX - Accelerated Deep Learning Framework
 
-![JAX Logo](assets/imgs/logo_jax.jpeg) 
+![JAX Logo](assets/imgs/logo_jax.jpeg)
 JAX is a deep learning framework that enables training of CPU/GPU/TPU. 
 
 ## Implementations of Generative model architectures:
