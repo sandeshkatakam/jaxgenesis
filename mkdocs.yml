@@ -1,0 +1,20 @@
+site_name: Generative Models in JAX Framework
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue grey
+    features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.follow
+    - navigation.top
+nav:
+  - Section:
+    - section/index.md 
+    - Page 1: section/page-1.md
+    - Page n: section/page-n.md

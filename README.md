@@ -35,3 +35,8 @@ You can train your own GAN from scratch with `training/`. To change the paramete
 * CelebA (128x128)
 
 ## Results of Pre-Trained Models
+
+## Note:  
+This repository will continually updated with new implementation of Generative models. 
+This is an ongoing project!!
+Refer to CONTRIBUTING.md for more details about contributing to this project
