@@ -1,0 +1,5 @@
+{
+    "dataset": "MNIST",
+    "batchsize": 32,
+    "num_epochs": 100
+}
