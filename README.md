@@ -1,4 +1,4 @@
-# Generative Models in JAX Deep Learning Framework
+# GenJAX: Generative Models Library for JAX Deep Learning Framework
 Implementations of different generative model architectures in JAX framework using Haiku(DeepMind) Library for Neural Network Implementations.
 
 ## JAX - Accelerated Deep Learning Framework
@@ -7,17 +7,33 @@ Implementations of different generative model architectures in JAX framework usi
 JAX is a deep learning framework that enables training of CPU/GPU/TPU. 
 
 ## Implementations of Generative model architectures:
-* Generative Adversaraial Networks (GANs) 
+* Generative Adversaraial Networks (GAN) Models: 
     * Vanilla-GAN
     * Deep Convolutional GAN(DC-GAN)
     * Conditional GAN (C-GAN)
     * Wasserstein GAN (WGAN)
     * Progressive GAN (ProGAN)
-* Variational Auto-Encoders
-    * Auto-Encoder Model architecture
+    * InfoGAN
+    * AutoEncoders
+    * Energy Based GAN(EBGAN)
+* Variational Auto-Encoder Models:
+    * Variational Auto-Encoder Model
+    * Conditional VAE
+    * WAE-MMD
+    * Categorical VAE
+    * Joint VAE
+    * Info VAE
     * 
-* Flow-Based Models
-* Energy Based Models
+* Flow-Based Models(Normalizing Flows):
+    * Planar Flow
+    * Neural Spline Flow
+    * Residual Flow
+    * Stochastic Normalizing Flow
+    * Continous Normalizing Flows
+
+* Energy Based Models:
+    * Restricted Boltzmann Machine(RBM)
+    * Deep Belief Networks(DBN)
 * NeuralSDEs (for Continous-Time Generative Models for Time Series Generation)
 
 ## Quick Start

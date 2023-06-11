@@ -1,4 +1,4 @@
-site_name: Generative Models in JAX Framework
+site_name: GenJAX
 theme:
   name: material
   palette:
