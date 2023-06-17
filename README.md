@@ -1,5 +1,5 @@
-# GenJAX: Generative Models Library for JAX Deep Learning Framework
-Implementations of different generative model architectures in JAX framework using Haiku(DeepMind) Library for Neural Network Implementations.
+# JaxGenesis: Generative Models Library for JAX Deep Learning Framework
+Implementations of different generative model architectures in JAX framework using Equinox JAX Library for Neural Network Implementations.
 
 ## JAX - Accelerated Deep Learning Framework
 
