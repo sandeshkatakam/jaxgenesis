@@ -1,8 +1,11 @@
 # JaxGenesis: Generative Models Library for JAX Deep Learning Framework
-Implementations of different generative model architectures in JAX framework using Equinox JAX Library for Neural Network Implementations.
 
 
-![JAX Logo](./assets/imgs/jaxgenesislogo.png)
+
+![JAX Logo](./assets/imgs/jaxgenesislogo.png)  
+
+Implementations of different generative model architectures in JAX framework.
+
 JAX is a deep learning framework that enables training of CPU/GPU/TPU. 
 
 ## Implementations of Generative model architectures:
