@@ -1,8 +1,9 @@
 # JaxGenesis: Generative Models Library for JAX Deep Learning Framework
 
 
-
-![JAX Logo](./assets/imgs/jaxgenesislogo.png)  
+<p align="center">
+  <img src="./assets/imgs/jaxgenesislogo.png">
+</p> 
 
 Implementations of different generative model architectures in JAX framework.
 
