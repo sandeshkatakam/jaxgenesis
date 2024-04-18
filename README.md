@@ -56,3 +56,17 @@ You can train your own GAN from scratch with `training/`. To change the paramete
 This repository will continually updated with new implementation of Generative models. 
 This is an ongoing project!!
 Refer to CONTRIBUTING.md for more details about contributing to this project
+
+
+
+### Citation
+```
+@misc{sandeshkatakam,
+  author = {Sandesh, Katakam},
+  title = {JAXGenesis},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/sandeshkatakam/jaxgenesis}}
+}
+```

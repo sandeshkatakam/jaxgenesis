@@ -6,6 +6,10 @@ import jax.nn as jnn
 import jax.numpy as jnp
 import jax.random as jrandom
 from jaxtyping import Array
+import flax.linen as nn
+from typing import Tuple
+
+
 import json
 from ...utils import load_torch_weights
 from . import Abstract_GAN
@@ -15,7 +19,7 @@ def load_configs(path):
     configs = json.load(path)
     return configs
 
-class Generator_Network(eqx.Module):
+class Generator_Network(nn.Module):
     """Generator class for GAN"""
     def __init__(self, config_path):
         super().__init__()
@@ -24,11 +28,24 @@ class Generator_Network(eqx.Module):
             key = jrandom.PRNGKey(0)
         keys = jrandom.split(key,0)
 
-class Discriminator_Network(eqx.Module):
+## TODO: Complete base Generator and Discriminator Classes
+## This week: Complete Vanilla GAN , InfoGAN, WGAN, DCGAN and write Tests
+## Next week: Complete WGAN, CycleGAN etc and write tests
+## Third week: VAEs Complete with tests
+## Fourth Week: 
+
+class Discriminator_Network(nn.Module):
     """Discriminator class for GAN"""
-    def __init__(self, config_path):
-        super().__init__()
-        self.configs = load_configs(config_path)
+    features: Tuple[int,...] # Replace this with JAXTyping
+    
+
+    def setup(self, features):
+        self.features = features
+        self.layers = [nn.Conv(features[0],features[1],kernel_size=4,stride=2,padding=1),
+
+    def __call__(self,x):
+        return self.forrward(x)
+
 
     def forrward():
         """Method defining a forward pass for Discriminator Network"""
@@ -39,5 +56,9 @@ class Vanilla_GAN(Abstract_GAN,eqx.Module):
         super().__init__()
         self.configs = load_configs(path)
 
+
+
         
 
+
+    

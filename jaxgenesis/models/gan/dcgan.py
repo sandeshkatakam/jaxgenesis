@@ -4,6 +4,19 @@ import equinox as eqx
 
 __all__ = ["Generator", "Discriminator"]
 
+
+import numpy as np
+
+import jax.numpy as jnp
+import 
+
+
+# I am just making sure that my vim plugin is working very well with this
+# Next step is to see how to add an LSP and Co-Pilot to the NVIM
+
+def sandesh_katakam_new_method(self, parameter_list):
+    pass
+
 class Generator(eqx.Module):
     r"""Base class for all Generator models
     All Generator models for all the other GANs must subclass this
